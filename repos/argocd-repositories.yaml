@@ -9,11 +9,8 @@ kind: Secret
 metadata:
   annotations:
     managed-by: argocd.argoproj.io
-  creationTimestamp: "2025-06-25T13:46:55Z"
   labels:
     argocd.argoproj.io/secret-type: repository
-  name: repo-2867038672
+  name: repo-infra
   namespace: openshift-gitops
-  resourceVersion: "14010882"
-  uid: 26c301eb-62f4-4d34-90b4-99bea42c0fe6
 type: Opaque
