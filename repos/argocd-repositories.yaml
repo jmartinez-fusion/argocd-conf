@@ -1,0 +1,62 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ifra-repo
+  namespace: openshift-gitops
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: git@github.com:jmartinez-fusion/infra.git
+  sshPrivateKey: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    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
+    xA4Z1IwQE7xtAAAABmFyZ29jZAECAwQ=
+    -----END OPENSSH PRIVATE KEY-----
+  insecure: "true" # Do not perform a host key check for the server. Defaults to "false"
+  enableLfs: "true" # Enable git-lfs for this repository. Defaults to "false"
+
