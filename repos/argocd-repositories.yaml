@@ -1,16 +1,17 @@
 apiVersion: v1
 data:
-  name: aW5mcmE=
+  name: aW5mcmEtcmVwbw==
+  password: Z2hwXzFjbHh0b2ppMFI2cnFhQjhTbnZkY2tNQTRlUWlvbDBEWHdTOA==
   project: ZGVmYXVsdA==
-  sshPrivateKey: LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDUmgxN280N28vWHZ5eUg5YU00K1d6WWhUT3o4Vit5K3R5c3BCMkk5VUh2QUFBQUpnbWJFTzNKbXhECnR3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQ1JoMTdvNDdvL1h2eXlIOWFNNCtXelloVE96OFYreSt0eXNwQjJJOVVIdkEKQUFBRUJjN01nSEdxajhmdXZqV1hSSXB5b3JoZHpmeWF4UC9oUCtOaW1BOVlpMTE1R0hYdWpqdWo5ZS9MSWYxb3pqNWJOaQpGTTdQeFg3TDYzS3lrSFlqMVFlOEFBQUFFR3B0WVhKMGFXNWxla0JtWldSdmNtRUJBZ01FQlE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0K
   type: Z2l0
-  url: Z2l0QGdpdGh1Yi5jb206am1hcnRpbmV6LWZ1c2lvbi9pbmZyYS5naXQ=
+  url: aHR0cHM6Ly9naXRodWIuY29tL2ptYXJ0aW5lei1mdXNpb24vaW5mcmEuZ2l0
+  username: am1hcnRpbmV6LWZ1c2lvbg==
 kind: Secret
 metadata:
   annotations:
     managed-by: argocd.argoproj.io
   labels:
     argocd.argoproj.io/secret-type: repository
-  name: repo-infra
+  name: repo-877035682
   namespace: openshift-gitops
 type: Opaque
