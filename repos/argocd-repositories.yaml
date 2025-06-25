@@ -8,8 +8,6 @@ data:
   username: am1hcnRpbmV6LWZ1c2lvbg==
 kind: Secret
 metadata:
-  annotations:
-    managed-by: argocd.argoproj.io
   labels:
     argocd.argoproj.io/secret-type: repository
   name: repo-877035682
