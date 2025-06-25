@@ -1,11 +1,11 @@
 apiVersion: v1
-data:
-  name: aW5mcmEtcmVwbw==
-  password: Z2hwXzFjbHh0b2ppMFI2cnFhQjhTbnZkY2tNQTRlUWlvbDBEWHdTOA==
-  project: ZGVmYXVsdA==
-  type: Z2l0
-  url: aHR0cHM6Ly9naXRodWIuY29tL2ptYXJ0aW5lei1mdXNpb24vaW5mcmEuZ2l0
-  username: am1hcnRpbmV6LWZ1c2lvbg==
+stringData:
+  type: git
+  url: https://github.com/jmartinez-fusion/infra.git
+  username: jmartinez-fusion
+  password: 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
+  name: infra-repo
+  project: default
 kind: Secret
 metadata:
   labels:
