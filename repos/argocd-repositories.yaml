@@ -3,7 +3,7 @@ stringData:
   type: git
   url: https://github.com/jmartinez-fusion/infra.git
   username: jmartinez-fusion
-  password: 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
+  password: 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
   name: infra-repo
   project: default
 kind: Secret
